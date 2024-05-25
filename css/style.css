@@ -1,0 +1,63 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+ul,
+li,
+a {
+	/* list-style: none; */
+	text-decoration: none;
+	color: inherit;
+}
+
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #0c3e2e;
+}
+
+.f {
+	font-family: "Balsamiq Sans", sans-serif;
+
+	font-family: "Kaisei Decol", serif;
+	font-family: "Manrope", sans-serif;
+}
+
+
+.header{
+	background-image: url(../images/header-bg.svg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.header-top {
+	padding-top: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {}
+
+.logo__img {}
+
+.menu {}
+
+.menu__list {
+	display: flex;
+	gap: 30px;
+}
+
+.menu__item {}
+
+.menu__link {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.phone {
+	color: #bb8a52;
+}
