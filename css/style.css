@@ -324,7 +324,7 @@ body {
 	padding-top: 50px;
 }
 
-.prices__item-sum sup{
+.prices__item-sum sup {
 	margin-bottom: 20px;
 	font-size: 15px;
 }
@@ -337,6 +337,51 @@ body {
 }
 
 /* ****prices**** */
+
+
+/* ****work**** */
+
+.work {
+	margin-bottom: 150px;
+}
+
+.work__list {
+	list-style-type: none;
+	counter-reset: my-counter;
+	max-width: 1056px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0 15px;
+}
+
+.work__item::before {
+	content: counter(my-counter, decimal-leading-zero);
+	counter-increment: my-counter;
+	font-family: "Kaisei Decol", sans-serif;
+	font-size: 128px;
+	font-weight: 400;
+	letter-spacing: -12px;
+	color: rgba(109, 151, 115, 0.2);
+	position: absolute;
+	left: 0;
+}
+
+.work__item {
+	font-size: 28px;
+	position: relative;
+	line-height: 185px;
+	padding-left: 64px;
+}
+
+/* ****work**** */
+
+
+/* ****work**** */
+
+
+
+/* ****work**** */
 
 
 
