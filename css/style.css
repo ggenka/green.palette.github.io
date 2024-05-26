@@ -377,11 +377,40 @@ body {
 /* ****work**** */
 
 
-/* ****work**** */
+/* ****team**** */
+
+.team {
+	margin-bottom: 150px;
+}
+
+.team__text {
+	font-size: 28px;
+	margin-bottom: 50px;
+}
+
+.team__list {
+	display: flex;
+	align-items: center;
+	gap: 0 50px;
+	
+}
+
+.team__item {
+	width: 200px;
+}
+
+.team__inner-img{
+	border: 1px solid #ffba00;
+}
+
+.team__item-name{
+	text-align: center;
+	padding: 10px 0 15px;
+}
 
 
 
-/* ****work**** */
+/* ****team**** */
 
 
 
