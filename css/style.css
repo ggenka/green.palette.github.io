@@ -119,6 +119,12 @@ body {
 }
 
 
+.main {
+	background-image: url(../images/123.png);
+	background-repeat: round;
+	background-size: contain;
+}
+
 /* ****main**** */
 
 /* ****about**** */
@@ -375,6 +381,7 @@ body {
 	color: rgba(109, 151, 115, 0.2);
 	position: absolute;
 	left: 0;
+	-webkit-text-stroke: 1px rgb(109, 151, 115);  
 }
 
 .work__item {
@@ -401,7 +408,7 @@ body {
 .team__list {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	gap: 0 50px;
 
 }
