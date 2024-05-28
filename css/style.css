@@ -719,7 +719,7 @@ body {
 	}
 
 	.menu__list.menu--open {
-		transform: translateX(0%);
+		transform: translateY(0%);
 		
 	}
 

@@ -18,6 +18,11 @@ const swiper = new Swiper('.reviews__slider', {
   const menuBtn = document.querySelector('.menu__btn');
   const menuList = document.querySelector('.menu__list');
 
+  if (menuList.classList.contains('menu--open')) {
+	menuList.classList.remove('menu--open');
+  }
+
+
   menuBtn.addEventListener('click', () => {
 	menuList.classList.toggle('menu--open');
   })
