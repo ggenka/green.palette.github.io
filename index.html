@@ -24,7 +24,13 @@
         <div class="header-top">
           <a href="" class="logo"><img class='logo__img' src="images/logo.svg" alt="логотип зелена палітра"></a>
           <nav class="menu">
-            <ul class="menu__list">
+            <button class="menu__btn">
+              <svg width="50" height="32" viewBox="0 0 50 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.66666 1H48.3333M1.66666 16H48.3333M1.66666 31H48.3333" stroke="#0C3E2E" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <ul class="menu__list menu--open">
               <li class="menu__item"><a href="" class="menu__link">Про нас</a></li>
               <li class="menu__item"><a href="" class="menu__link">Проекти</a></li>
               <li class="menu__item"><a href="" class="menu__link">Послуги</a></li>
@@ -43,14 +49,18 @@
               <h1 class="header__title">
                 Реалізуйте Ваші зелені мрії з нами
               </h1>
-              <p class="header-content__text">
+              <p class="header-content__text header-content__text-mob">
                 Почніть ваше ландшафтне втілення з нами та отримайте перший рік обслуговування
                 абсолютно <span>безкоштовно!</span>
               </p>
-              <a class='header-content__btn' href="">Замовити проект</a>
+              <a class='header-content__btn header-content__btn--mob' href="">Замовити проект</a>
             </div>
             <img class="header-content__img" src="images/header-top.png" alt="">
           </div>
+          <p class="header-content__text header-content__text-desc ">Отримайте перший рік обслуговування
+            абсолютно<span>безкоштовно!</span>
+          </p>
+          <a class='header-content__btn header-content__btn--desc' href="">Замовити проект</a>
         </div>
         <p class="header__text">
           Садова магія кожного сезону
@@ -59,8 +69,12 @@
     </div>
   </header>
 
+
+  <!--  
+
+
   <main class="main">
-    <section class="about">
+    <section class="about section-mb">
       <div class="container">
         <h2 class="title">Про нас</h2>
         <div class="about__inner">
@@ -90,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section class="why">
+    <section class="why section-mb">
       <div class="container">
         <h2 class="title">Чому ми?</h2>
         <p class="why__text">Ви обираєте якість, креативність та натхнення для вашого саду.</p>
@@ -107,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section class='projects'>
+    <section class='projects section-ms'>
       <div class="container">
         <h2 class="title">Наші проекти</h2>
         <p class="projects__text">Ми гарантуємо, що ваші очі будуть радіти кожен раз, коли ви будете насолоджуватися
@@ -136,7 +150,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services section-ms">
       <div class="container">
         <h2 class="title">
           Послуги
@@ -169,7 +183,7 @@
         </ul>
       </div>
     </section>
-    <section class="prices">
+    <section class="prices section-mb">
       <div class="container">
         <h2 class="title">
           Тарифи і ціни
@@ -207,7 +221,7 @@
         </div>
       </div>
     </section>
-    <section class="work">
+    <section class="work section-mb">
       <div class="container">
         <h2 class="title">Як ми працюємо</h2>
         <ol class="work__list">
@@ -219,7 +233,7 @@
         </ol>
       </div>
     </section>
-    <section class="team">
+    <section class="team section-mb">
       <div class="container">
         <h2 class="title">Наша команда</h2>
         <p class="team__text">
@@ -257,7 +271,7 @@
         </div>
       </div>
     </section>
-    <section class="questions">
+    <section class="questions section-mb">
       <div class="container">
         <h2 class="title">Часті питаня</h2>
         <div class="questions__accordeon accordeon">
@@ -303,7 +317,7 @@
       </div>
     </section>
     <section>
-      <div class="contact-form">
+      <div class="contact-form section-mb">
         <div class="container">
           <div class="contact-form__inner">
             <div class="contact-form__content">
@@ -336,12 +350,11 @@
         </div>
       </div>
     </section>
-    <section class="reviews">
+    <section class="reviews section-mb">
       <div class="container">
         <h2 class="title">
           Відгуки
         </h2>
-        <!-- Slider main container -->
         <div class="reviews__slider swiper">
 
           <div class="swiper-wrapper">
@@ -352,7 +365,8 @@
                 Юлія, м. Київ
               </p>
               <p class="reviews__item-text">
-                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
               </p>
             </div>
             <div class="swiper-slide reviews__item">
@@ -361,7 +375,8 @@
                 Олександра, м. Вінниця
               </p>
               <p class="reviews__item-text">
-                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
               </p>
             </div>
             <div class="swiper-slide reviews__item">
@@ -370,7 +385,8 @@
                 Юлія, м. Київ
               </p>
               <p class="reviews__item-text">
-                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
               </p>
             </div>
             <div class="swiper-slide reviews__item">
@@ -379,7 +395,8 @@
                 Олександра, м. Вінниця
               </p>
               <p class="reviews__item-text">
-                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
               </p>
             </div>
             <div class="swiper-slide reviews__item">
@@ -388,7 +405,8 @@
                 Юлія, м. Київ
               </p>
               <p class="reviews__item-text">
-                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
               </p>
             </div>
             <div class="swiper-slide reviews__item">
@@ -397,7 +415,8 @@
                 Олександра, м. Вінниця
               </p>
               <p class="reviews__item-text">
-                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
               </p>
             </div>
 
@@ -412,10 +431,10 @@
           </div>
 
         </div>
-        
+
       </div>
     </section>
-    <section class='contacts'>
+    <section class='contacts section-mb'>
       <div class="container">
         <h2 class="title">
           Контакти
@@ -493,6 +512,9 @@
       </div>
     </div>
   </div>
+
+  -->
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
