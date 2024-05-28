@@ -716,11 +716,12 @@ body {
 		background-color: rgba(129, 216, 142, 0.897);
 		transform: translateY(-120%);
 		transition: transform .5s ease;
+		visibility: hidden;
 	}
 
 	.menu__list.menu--open {
-		transform: translateY(0%);
-		
+		transform: translateX(0%);
+		visibility: visible;
 	}
 
 	.menu__link{
