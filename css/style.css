@@ -390,27 +390,78 @@ body {
 
 .team__list {
 	display: flex;
-	align-items: center;
+	/* justify-content: center; */
+	/* align-items: center; */
 	gap: 0 50px;
-	
+
 }
 
 .team__item {
 	width: 200px;
 }
 
-.team__inner-img{
+.team__inner-img {
 	border: 1px solid #ffba00;
 }
 
-.team__item-name{
+.team__item-name {
 	text-align: center;
 	padding: 10px 0 15px;
 }
 
-
-
 /* ****team**** */
+
+
+/* ****questions**** */
+
+.questions {
+	margin-bottom: 150px;
+}
+
+.accordeon {
+	column-count: 2;
+	gap: 0 22px;
+}
+
+.accordeon__item {
+	margin-bottom: 40px;
+}
+
+.accordeon__title {
+	margin-bottom: 15px;
+	font-size: 24px;
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	text-align: left;
+	cursor: pointer;
+	padding-right: 70px;
+	position: relative;
+	width: 100%;
+}
+
+.accordeon__title::after {
+	content: '';
+	position: absolute;
+	background-image: url(../images/arrow-down.svg);
+	width: 15px;
+	height: 26px;
+	top: 3px;
+	right: 40px;
+}
+
+.accordeon__descr {
+	display: none;
+}
+
+/* ****questions**** */
+
+
+/* ****questions**** */
+
+
+
+/* ****questions**** */
 
 
 
