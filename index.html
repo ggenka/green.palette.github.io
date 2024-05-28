@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Kaisei+Decol&family=Manrope:wght@200..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -302,119 +303,197 @@
       </div>
     </section>
     <section>
-    <div class="contact-form">
-      <div class="container">
-        <div class="contact-form__inner">
-          <div class="contact-form__content">
-            <h2 class="title">
-              Детальніше
-            </h2>
-            <p class="contact-form__text">
-              Хочу безкоштовний виїзд на об’єкт
-            </p>
-            <form action="" class="form">
-              <p class="form__text">
-                Укажіть свої контактні дані і наш менеджер перетелефонує Вам
+      <div class="contact-form">
+        <div class="container">
+          <div class="contact-form__inner">
+            <div class="contact-form__content">
+              <h2 class="title">
+                Детальніше
+              </h2>
+              <p class="contact-form__text">
+                Хочу безкоштовний виїзд на об’єкт
               </p>
-              <input class='form__input' type="text" placeholder='Ім’я'>
-              <input class='form__input' type="phone" placeholder='Телефон'>
-              <input class='form__input' type="text" placeholder='Адреса'>
-              <button class="form__btn" type='submit'>Відправити</button>
-            </form>
-            <a href="#" class="form__link">
-              <span>Або відразу нам в телеграм</span>
-              <img src="images/telegram.svg" alt="">
-            </a>
-          </div>
-          <div class="contact-form__images">
-            <img class='contact-form__img' src="images/form-1.jpg" alt="">
-            <img class='contact-form__img' src="images/form-2.jpg" alt="">
-            <img class='contact-form__img contact-form__img--mod' src="images/form-3.jpg" alt="">
+              <form action="" class="form">
+                <p class="form__text">
+                  Укажіть свої контактні дані і наш менеджер перетелефонує Вам
+                </p>
+                <input class='form__input' type="text" placeholder='Ім’я'>
+                <input class='form__input' type="phone" placeholder='Телефон'>
+                <input class='form__input' type="text" placeholder='Адреса'>
+                <button class="form__btn" type='submit'>Відправити</button>
+              </form>
+              <a href="#" class="form__link">
+                <span>Або відразу нам в телеграм</span>
+                <img src="images/telegram.svg" alt="">
+              </a>
+            </div>
+            <div class="contact-form__images">
+              <img class='contact-form__img' src="images/form-1.jpg" alt="">
+              <img class='contact-form__img' src="images/form-2.jpg" alt="">
+              <img class='contact-form__img contact-form__img--mod' src="images/form-3.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</section>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="title">
+          Відгуки
+        </h2>
+        <!-- Slider main container -->
+        <div class="reviews__slider swiper">
 
-<section class='contacts'>
-  <div class="container">
-    <h2 class="title">
-      Контакти
-    </h2>
-    <div class="contacts__inner">
-      <img class="contacts__img" src="images/contacts.png" alt="" >
-      <div class="contacts__content">
-        <p class="contacts__text">
-          Зателефонуйте зараз та розпочніть трансформацію вашого саду у справжній рай на землі!
-        </p>
-        <dl class="contacts__info">
-          <dt>Телефон</dt>
-          <dd>
-            <a href="tel:+38099299996">+38 099 299 996</a>
-          </dd>
-          <dt>Адреса</dt>
-          <dd>м. Київ, вул. Зелена, 5б</dd>
-          <dt>Графік роботи</dt>
-          <dd>пн-сб з 10:00 до 20:00</dd>
-        </dl>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-1.jpg" alt="">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-2.jpg" alt="">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-1.jpg" alt="">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-2.jpg" alt="">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-1.jpg" alt="">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою, дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class='reviews__item-photo' src="images/rev-2.jpg" alt="">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні поради, щодо догляду.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="revieews_item-arrow revieews_item-prev">
+            <img src="images/arrow-left.svg" alt="">
+          </div>
+
+          <div class="revieews_item-arrow revieews_item-next">
+            <img src="images/arrow-right.svg" alt="">
+          </div>
+
+        </div>
+        
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <section class='contacts'>
+      <div class="container">
+        <h2 class="title">
+          Контакти
+        </h2>
+        <div class="contacts__inner">
+          <img class="contacts__img" src="images/contacts.png" alt="">
+          <div class="contacts__content">
+            <p class="contacts__text">
+              Зателефонуйте зараз та розпочніть трансформацію вашого саду у справжній рай на землі!
+            </p>
+            <dl class="contacts__info">
+              <dt>Телефон</dt>
+              <dd>
+                <a href="tel:+38099299996">+38 099 299 996</a>
+              </dd>
+              <dt>Адреса</dt>
+              <dd>м. Київ, вул. Зелена, 5б</dd>
+              <dt>Графік роботи</dt>
+              <dd>пн-сб з 10:00 до 20:00</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-<div class="footer">
-  <div class="container">
-    <div class="footer__inner">
-      <div class="footer__left">
-        <nav class="footer__menu">
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="" >Про нас</a>
+  <div class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="">Про нас</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="">Проекти</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="">Послуги</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="">Ціна</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social__list">
+            <li class="social__list-item">
+              <a class="social__list-link" href="">
+                <img src="images/telegram-footer.svg" alt="">
+              </a>
             </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="" >Проекти</a>
+            <li class="social__list-item">
+              <a class="social__list-link" href="">
+                <img src="images/instagram.svg" alt="">
+              </a>
             </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="" >Послуги</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="" >Ціна</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="" >Контакти</a>
+            <li class="social__list-item">
+              <a class="social__list-link" href="">
+                <img src="images/facebook.svg" alt="">
+              </a>
             </li>
           </ul>
-        </nav>
-        <ul class="social__list">
-          <li class="social__list-item">
-            <a class="social__list-link" href="" >
-              <img src="images/telegram-footer.svg" alt="">
-            </a>
-          </li>
-          <li class="social__list-item">
-            <a class="social__list-link" href="" >
-              <img src="images/instagram.svg" alt="">
-            </a>
-          </li>
-          <li class="social__list-item">
-            <a class="social__list-link" href="" >
-              <img src="images/facebook.svg" alt="">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__right">
-        <a class="footer__logo" href="" >
-          <a href="" class="footer__logo"><img src="images/logo.svg" alt="логотип зелена палітра"></a>
-        </a>
-        <p class="footer__text">
-          Реалізуйте Ваші зелені мрії з нами
-        </p>
+        </div>
+        <div class="footer__right">
+          <a class="footer__logo" href="">
+            <a href="" class="footer__logo"><img src="images/logo.svg" alt="логотип зелена палітра"></a>
+          </a>
+          <p class="footer__text">
+            Реалізуйте Ваші зелені мрії з нами
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
